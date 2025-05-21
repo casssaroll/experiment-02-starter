@@ -1,7 +1,7 @@
 body {
     margin: 0;
     /* feel free to change/customize this gradient and font */
-    background: linear-gradient(135deg, #0f0f0f 0%, #9fe0ff 100%);
+    background: linear-gradient(135deg, #eaeaea 0%, #c7f4ff 100%);
     /* feel free to change/customize font */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -30,6 +30,11 @@ body {
 
     /* background color for tile, feel free to change */
     background-color: rgb(255, 251, 251);
+    animation: backgroundBG 8s infinite
+}
+
+.flex-tile:hover{
+    border: 1px solid black;
 }
 
 .hut{
@@ -108,4 +113,17 @@ body {
 
 .btn3:active{
     transform: scaleY(2);
+}
+
+
+@keyframes backgroundBG {
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: rgb(174, 255, 181);
+    }
+    100%{
+        background-color: white;
+    }
 }
