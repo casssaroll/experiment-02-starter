@@ -1,20 +1,26 @@
 body {
     margin: 0;
     /* feel free to change/customize this gradient and font */
-    background: linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%);
+    background: linear-gradient(135deg, #fffeaf 0%, #a0e1ff 100%);
     /* feel free to change/customize font */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .flex-container {
     /* Make this into a flexbox using display: flex */
     /* Use flexbox properties to stack your tiles vertically and center them */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-tile {
     /* Make this into a flexbox using display: flex */
     /* Use flexbox properties to stack elements in your tiles vertically and center them */
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* setting the width for each tile */
     width: 40%;
 
@@ -23,8 +29,32 @@ body {
     padding: 20px;
 
     /* background color for tile, feel free to change */
-    background-color: white;
+    background-color: rgb(255, 251, 251);
 }
 
+.hut{
+    width: 75%;
+}
 
+.coming-home{
+    width: 75%;
+}
 
+.elita{
+    width: 75%;
+}
+
+ h1{
+    font-size: larger;
+    text-align: center;
+ }
+
+ h2{
+    font-size: larger;
+    text-align: center;
+ }
+
+ h3{
+    font-size: larger;
+    text-align: center;
+ }
